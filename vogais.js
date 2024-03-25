@@ -1,8 +1,7 @@
-// function solution(str){
-//     var array = str.split('');
-//     var res = []
-
-// }
+//certa
+function getCount(str) {
+    return (str.macth(/[aeiou]/g) || []).length
+}
 
 function solution(str){
     var arr = str.split('')
